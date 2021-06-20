@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/bg">
+
+	<Button
+		android:text="Admin Login"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="250dp"
+		android:id="@+id/btnAdminLogin" />
+	
+
+	<Button
+			android:text="Weather Details"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="280dp"
+			android:id="@+id/btnweather" />
+
+
+	<Button
+			android:text="Map Location "
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="320dp"
+			android:id="@+id/btnMap" />
+
+
+
+
+
+
+</RelativeLayout>
